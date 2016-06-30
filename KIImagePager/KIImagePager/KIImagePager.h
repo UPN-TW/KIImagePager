@@ -72,6 +72,7 @@ typedef void(^KIImagePagerImageRequestBlock)(UIImage*image, NSError * error);
 @property (nonatomic, strong) UIColor *captionBackgroundColor; // Defaults White (with an alpha of .7f)
 @property (nonatomic, strong) UIFont *captionFont; // Defaults to Helvetica 12.0f points
 
+- (void) loadData;
 - (void) reloadData;
 - (void) setCurrentPage:(NSUInteger)currentPage animated:(BOOL)animated;
 
